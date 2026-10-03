@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Iann, BSIT student specializing in web and mobile app development.">
+  <title>Iann | Web &amp; Mobile Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#about" class="brand">Iann Luigi Q. Cato</a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Dark / light mode toggle -->
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark mode">
+          <span id="theme-label">Dark</span>
+        </button>
+        <!-- Hamburger menu (mobile only) -->
+        <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO / ABOUT ME -->
+    <section class="hero container" id="about">
+      <div class="hero-text">
+        <h1>I build web and mobile apps, and I edit films.</h1>
+        <p class="lead">
+          Hi, I'm  Iann Luigi Q. Cato, a 3rd-year BSIT student at Bulacan State University
+          specializing in Web and Mobile App Development.
+        </p>
+        <p>
+          Before I wrote code, I was cutting short films and editing video.
+          That background shapes how I build: I think in scenes, pacing, and
+          what the viewer sees first. Now I turn school problems into working
+          apps, from blood donation coordination to campus organization tools.
+        </p>
+        <ul class="skills" aria-label="Skills">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>Flutter</li>
+          <li>Video editing</li>
+        </ul>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <figure class="frame">
+        <img src="profile.jpg" alt="Iann Luigi Q. Cato" width="400" height="480">
+       
+      </figure>
+    </section>
+
+    <!-- 3. PROJECTS -->
+    <section class="projects container" id="projects">
+      <h2>Projects</h2>
+      <p class="section-intro">Selected work from my courses.</p>
+
+      <div class="card-grid">
+        <article class="card">
+          <span class="tag">Web Platform</span>
+          <h3>KopiKats</h3>
+          <p>A simple coffee shop website</p>
+          <a href="https://github.com/lululuigi/kopikats" target="_blank" rel="noopener">View repository</a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Web Platform</span>
+          <h3>Voting System</h3>
+          <p>A simple Voting System for a Student Council </p>
+          <a href="https://github.com/lululuigi/VotingSystem" target="_blank" rel="noopener">View repository</a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Short film</span>
+          <h3>ANINO</h3>
+          <p>A psychological horror short film I wrote and edited, built around shadow, sound, and slow tension.</p>
+          <a href="https://drive.google.com/file/d/1RieFlnTOA4UbZ6OcHZspPHY-FCXbuV_N/view?usp=sharing">Click to See The Film</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. FOOTER / CONTACT -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <h2>Let's work together</h2>
+        <p>Have a project, a film, or an idea? Send me a message.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:iannluigicato@gmail.com">iannluigicato@gmail.com</a></li>
+        <li><a href="https://github.com/lululuigi" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100091927369196" target="_blank" rel="noopener">Facebook</a></li>
+        <li><p>+63 976 260 5951</p></li>
+      </ul>
+    </div>
+    <p class="copyright container">&copy; 2026 Iann Luigi Q.. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
